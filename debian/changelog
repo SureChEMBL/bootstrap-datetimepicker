@@ -1,0 +1,22 @@
+eonasdan-bootstrap-datetimepicker (4.17.43-1) unstable; urgency=medium
+
+  * New upstream version 4.17.43
+  * Remove unused-override composer-package-without-pkg-php-tools-builddep
+
+ -- Mathias Behrle <mbehrle@debian.org>  Fri, 04 Nov 2016 17:15:22 +0100
+
+eonasdan-bootstrap-datetimepicker (4.17.42-1) unstable; urgency=medium
+
+  * New upstream version 4.17.42
+  * Cleaning also the preprocessed binaries in src/nuget.
+  * Defering the installation of docs to a separate doc package.
+  * Adding a license banner like upstream to the minified javascript file.
+  * Adding lintian overrides for the prebuilt files.
+
+ -- Mathias Behrle <mbehrle@debian.org>  Thu, 08 Sep 2016 14:06:49 +0200
+
+eonasdan-bootstrap-datetimepicker (4.17.37-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #831398)
+
+ -- Mathias Behrle <mbehrle@debian.org>  Thu, 21 Jul 2016 22:14:51 +0200

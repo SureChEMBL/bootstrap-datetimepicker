@@ -1,0 +1,9 @@
+# source is in src/js/bootstrap-datetimepicker.js
+# Bug filed as 832027@bugs.debian.org
+eonasdan-bootstrap-datetimepicker source: source-is-missing build/js/bootstrap-datetimepicker.min.js
+
+# All following files are removed in dh_clean
+eonasdan-bootstrap-datetimepicker source: source-is-missing docs/theme/js/prettify-1.0.min.js
+eonasdan-bootstrap-datetimepicker source: source-contains-prebuilt-javascript-object docs/theme/js/prettify-1.0.min.js
+eonasdan-bootstrap-datetimepicker source: source-contains-prebuilt-windows-binary src/nuget/NuGet.exe
+eonasdan-bootstrap-datetimepicker source: source-contains-prebuilt-javascript-object build/js/bootstrap-datetimepicker.min.js
